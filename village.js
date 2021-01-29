@@ -1,4 +1,4 @@
-class village {
+class Village {
     constructor(game) {
         Object.assign(this, { game });
         this.spritesheet = ASSET_MANAGER.getAsset("./sasuke walk.png");

@@ -16,12 +16,3 @@ ASSET_MANAGER.downloadAll(function (){
 
 	GAME_ENGINE.start();
 });
-
-
-
-var f = "fffffffffff"
-console.log(f);
-function printIt(parameter){
-	console.log(parameter);
-};
-printIt(f);

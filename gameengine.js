@@ -10,6 +10,7 @@ class GameEngine {
         this.wheel = null;
         this.surfaceWidth = null;
         this.surfaceHeight = null;
+		
     };
 
     init(ctx) {
@@ -96,4 +97,6 @@ class GameEngine {
         this.update();
         this.draw();
     };
+
+
 };
